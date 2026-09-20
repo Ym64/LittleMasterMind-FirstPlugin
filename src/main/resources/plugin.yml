@@ -1,0 +1,9 @@
+name: LittleMastermind-FirstPlugin
+description: $description
+version: '${version}'
+
+main: be.littlemastermind.plugin1.Main
+api-version: '26.3'
+load: POSTWORLD
+
+website: https://little-mastermind.be
