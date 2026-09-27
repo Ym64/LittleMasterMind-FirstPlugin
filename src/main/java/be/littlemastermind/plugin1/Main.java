@@ -6,7 +6,12 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        // Zet de whitelist uit (dit lijntje code is enkel nodig voor de eerste keer)
+        this.getServer().setWhitelist(false);
+
+        this.getLogger().info("-----------------------------------------------");
+        this.getLogger().info("De Little MasterMind plugin is succesvol gestart!");
+        this.getLogger().info("-----------------------------------------------");
     }
 
     @Override
